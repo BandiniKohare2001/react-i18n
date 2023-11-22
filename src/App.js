@@ -7,8 +7,8 @@ function App() {
   // const [ lang, setLang] = useState("hi");
   return (
 
-   <div>
-    <h1>{I18n("welcomeMessage")}</h1>
+   <div className="container">
+    <h1 className="welcome">{I18n("welcomeMessage")}</h1>
     <p> {I18n("normalMessage")}
     </p>
     <select
@@ -18,13 +18,14 @@ function App() {
                     window.location.reload();
                 }}
                 className="text-container">
-                <option value="en">English</option>
-                <option value="hi">Hindi</option>
+                <option value="en">English</option><hr />
+                <option value="hi">Hindi</option><hr />
                 <option value="mr">Marathi</option>
             </select>
     <h3>{I18n("greetingMessage")}</h3>
 
-    <p> {usersCount} users are learning in this session. </p>
+    {/* <p> {usersCount} users are learning in this session. </p> */}
+    <p>{I18n("userStatMessage", "<studentCount>", usersCount)}</p>
     </div>
   );
 }

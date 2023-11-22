@@ -1,19 +1,22 @@
 {
     "en":{
-        "welcomeMessage": "Welcome !",
-        "normalMessage":    "We hope you enjoy learning React.",
-        "greetingMessage":" Have a great day"
+        "welcomeMessage": "Internationalization",
+        "normalMessage":"In computing, internationalization and localization (American) or internationalisation and localisation (British), often abbreviated i18n and l10n respectively, are means of adapting computer software to different languages, regional peculiarities and technical requirements of a target locale.Internationalization is the process of designing a software application so that it can be adapted to various languages and regions without engineering changes. Localization is the process of adapting internationalized software for a specific region or language by translating text and adding locale-specific components. Localization (which is potentially performed multiple times, for different locales) uses the infrastructure or flexibility provided by internationalization (which is ideally performed only once before localization, or as an integral part of ongoing development)."  ,
+        "greetingMessage": " Have a great day",
+        "userStatMessage":" <studentCount> users are learning in this session."
 
        
     },
     "mr":{
-        "welcomeMessage":  "स्वागत आहे!",
-        "normalMessage": "आम्हाला आशा आहे की तुम्हाला React शिकायला आवडेल.",
-        "greetingMessage":" तुमचा दिवस चांगला जावो"
+        "welcomeMessage": "Internationalization (आंतरराष्ट्रीयकरण)",
+        "normalMessage": "अटी वारंवार i18n या संक्षेपात संक्षेपित केल्या जातात (जेथे 18 म्हणजे आंतरराष्ट्रीयकरण या शब्दातील पहिल्या i आणि शेवटच्या n मधील अक्षरांची संख्या, 1970 किंवा 1980 च्या दशकात डिजिटल इक्विपमेंट कॉर्पोरेशनमध्ये वापरण्यात आलेला वापर) आणि स्थानिकीकरणासाठी l10n, शब्दांच्या लांबीमुळे. काही लेखकांना दोन वेगळे करण्यास मदत करण्यासाठी नंतरचे शब्द कॅपिटल केलेले (L10n) आहेत. काही कंपन्या, जसे की IBM आणि ओरॅकल, जागतिकीकरण, g11n, आंतरराष्ट्रीयीकरण आणि स्थानिकीकरणाच्या संयोजनासाठी शब्द वापरतात. मायक्रोसॉफ्ट आंतरराष्ट्रीयीकरणाची व्याख्या जागतिक तयारी आणि स्थानिकीकरणाचे संयोजन म्हणून करते. जागतिक-तत्परता हे विकसक कार्य आहे, जे उत्पादनास एकाधिक स्क्रिप्ट आणि संस्कृती (जागतिकीकरण) वापरण्यास सक्षम करते आणि वापरकर्ता इंटरफेस संसाधने स्थानिकीकरण करण्यायोग्य स्वरूपात (स्थानिकीकरणक्षमता, संक्षिप्त रूपात L12y) विभक्त करते.Hewlett-Packard आणि HP-UX ने स्थानिकीकरण करण्यायोग्य सॉफ्टवेअर तयार करण्यासाठी 'राष्ट्रीय भाषा समर्थन' किंवा 'नेटिव्ह लँग्वेज सपोर्ट' (NLS) नावाची प्रणाली तयार केली.",
+        "greetingMessage":" तुमचा दिवस चांगला जावो",
+        "userStatMessage": "<studentCount> विद्यार्थी या सत्रात शिकत आहेत."
     },
     "hi":{
-        "welcomeMessage": "स्वागत है",
-        "normalMessage": "हमें आशा है कि आपको React सीखने में आनंद आएगा।",
-        "greetingMessage":"आपका दिन मंगलमय हो"
+        "welcomeMessage":"Internationalization (अंतर्राष्ट्रीयकरण)",
+        "normalMessage": "इन शब्दों को अक्सर संख्यात्मक शब्दों i18n में संक्षिप्त किया जाता है (जहां 18 अंतर्राष्ट्रीयकरण शब्द में पहले i और अंतिम n के बीच अक्षरों की संख्या को दर्शाता है, यह प्रयोग 1970 या 1980 के दशक में डिजिटल उपकरण निगम में गढ़ा गया था)और स्थानीयकरण के लिए l10n, शब्दों की लंबाई के कारण। दोनों को अलग करने में मदद के लिए कुछ लेखकों ने बाद वाले शब्द को बड़े अक्षरों में (L10n) लिखा है। कुछ कंपनियाँ, जैसे IBM और Oracle, अंतर्राष्ट्रीयकरण और स्थानीयकरण के संयोजन के लिए वैश्वीकरण, g11n शब्द का उपयोग करती हैं। माइक्रोसॉफ्ट अंतर्राष्ट्रीयकरण को विश्व-तत्परता और स्थानीयकरण के संयोजन के रूप में परिभाषित करता है। विश्व-तत्परता एक डेवलपर कार्य है, जो एक उत्पाद को कई स्क्रिप्ट और संस्कृतियों (वैश्वीकरण) के साथ उपयोग करने में सक्षम बनाता है और उपयोगकर्ता इंटरफ़ेस संसाधनों को स्थानीयकरण योग्य प्रारूप (स्थानीयकरण, संक्षिप्त रूप से L12y) में अलग करता है।  हेवलेट-पैकार्ड और एचपी-यूएक्स ने स्थानीयकरण योग्य सॉफ़्टवेयर तैयार करने के लिए 'राष्ट्रीय भाषा समर्थन' या 'मूल भाषा समर्थन' (एनएलएस) नामक एक प्रणाली बनाई।",
+        "greetingMessage":"आपका दिन मंगलमय हो",
+        "userStatMessage": " <studentCount> छात्र इस सत्र में सीख रहे हैं।"
     }
 }
